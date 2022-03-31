@@ -1,5 +1,22 @@
 #### This project is for the Red Acre interview
 
+LINK from route53: http://ioncostin.online/
+
+#### Prerequisites
+
+1. Have an [AWS Account](https://aws.amazon.com/).
+
+2. Install [HashiCorp Terraform](https://www.terraform.io/downloads).
+
+3. Have the [AWS CLI Installed](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+
+4. Create an [AWS IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) with Admin or Power User Permissions.
+  - this user will only be used locally
+
+5. [Configure the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) with the IAM User from Step 4.
+  - Terraform will read your credentials via the AWS CLI 
+  - [Other Authentication Methods with AWS and Terraform](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication)
+
 LINK: http://ioncostin.online/
 
 (I'm using a an external demo domain imported into Route53 and linked to the load balancer)
