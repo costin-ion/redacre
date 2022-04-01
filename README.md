@@ -69,7 +69,11 @@ Set AWS Credentials in Linux Shell:
     however we can create an EC2 machine with Jenkins that will automaticaly build images
     and upload the resulting images to our ECR reposotory.
     
+# The code for this infrastructure is located here:
+     https://github.com/costin-ion/redacre/blob/Terraform/
+    
 # PART 3. 
 
 Unfurtunately kubernetes part is not ready yet. I have tried to convert files using Kompose but it needs some aditional adjustemts. 
+    https://github.com/costin-ion/redacre/tree/kubernetes
 
