@@ -1,3 +1,16 @@
+# PART 1. 
+
+# Getting Started with Docker-compose
+    In order to run this aplication you must run "docker-compose up --build" command
+    to access the aplication you should reach http://localhost/ or http://127.0.0.1:80
+# For the web server I have added nginix.
+    nginix will copy build contents each time the image is built, for this I have used multy-stage Dockerfile ./sys-stats/Dockerfile.
+
+# please note: in order to use this aplication you must have docker installed.
+    The code for this aplication is located here: https://github.com/costin-ion/redacre/tree/docker-compose
+
+# PART 2. 
+
 #### This project is for the Red Acre interview
 
 LINK from route53: http://ioncostin.online/
@@ -55,5 +68,8 @@ Set AWS Credentials in Linux Shell:
 2. Docker images were uploaded directly from my laptop, 
     however we can create an EC2 machine with Jenkins that will automaticaly build images
     and upload the resulting images to our ECR reposotory.
+    
+# PART 3. 
 
+Unfurtunately kubernetes part is not ready yet. I have tried to convert files using Kompose but it needs some aditional adjustemts. 
 
