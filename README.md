@@ -70,7 +70,7 @@ Set AWS Credentials in Linux Shell:
     and upload the resulting images to our ECR reposotory.
     
 # The code for this infrastructure is located here:
-     https://github.com/costin-ion/redacre/blob/Terraform/
+     https://github.com/costin-ion/redacre/tree/Terraform
     
 # PART 3. 
 
